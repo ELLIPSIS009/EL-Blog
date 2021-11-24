@@ -1,0 +1,121 @@
+.nav_bar{
+    background-color: #1b1b1b; 
+    position: fixed; 
+    z-index: 100;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    border-bottom: 4px white solid;
+}
+.nav_bar_image{
+    width: 100px;
+    margin-left: 25px;
+}
+.nav_bar_div{
+    margin-top: 30px;
+    margin-left: calc(25% - 100px);
+    width: 50%;
+    /* padding-left: 75px; */
+}
+.nav_bar_elements{
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav_bar_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+}
+.nav_bar_li{
+    padding-left: 25px;
+    padding-right: 25px;
+    display: inline;
+    justify-content: space-evenly;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    height: 50%;
+}
+.footer .top{
+    height: 50%;
+    padding: 35px;
+    padding-left: 35%;
+    background-color: #131313;
+    display: flex;
+    justify-content: space-between;
+}
+.footer ul{
+    position: relative;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+.footer ul li {
+    list-style: none;
+}
+.footer ul li a {
+    position: relative;
+    width:60px;
+    height:60px;
+    display:block;
+    text-align:center;
+    margin:0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration:none;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: .5s;
+}
+.footer ul li a:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-decoration:none;
+}  
+.footer ul li a .fa {
+    width: 100%;
+    height: 100%;
+    display:block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(60px - 12px);
+    font-size:24px;
+    color: #262626;
+    transition: .5s;
+}
+.footer ul li:nth-child(1) a:hover .fa {
+    color: #3b5998;
+}
+.footer ul li:nth-child(2) a:hover .fa {
+    color: #00aced;
+}
+.footer ul li:nth-child(3) a:hover .fa {
+    color: #007bb6;
+}
+.footer ul li:nth-child(4) a:hover .fa {
+    color: #e4405f;
+}
+.footer ul li:nth-child(5) a:hover .fa {
+    color:orange;
+}
+.footer .bottom{
+    height: 10%;
+    background-color: #1b1b1b;
+    display: flex;
+}
+.footer .a,
+.footer .b{
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+.footer .bottom{
+    padding: 0px;
+}
+.footer .bottom .b {
+    padding-top: 25px;
+}

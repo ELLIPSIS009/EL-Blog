@@ -1,0 +1,254 @@
+body{
+	font-size: 20px;
+	color: #212529;
+	font-family: 'Lora', 'Times New Roman', serif;
+	margin: 0;
+}
+p{
+	line-height: 1.5;
+	margin: 30px 0; 
+}
+p a {
+	text-decoration: underline; 
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 800;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+}
+a {
+	color: #fff;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+	text-decoration: none;
+}
+a:focus, a:hover {
+	color: rgb(130, 130, 130);
+}
+blockquote {
+	font-style: italic;
+	color: #abb0b4; 
+}
+body {
+	background-image: url('../img/3.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-webkit-tap-highlight-color: #0085A1; 
+}
+canvas {
+	position: absolute;
+}
+header {
+	height: auto;
+	min-height: 100vh;
+}
+.masthead {
+	color: white; 
+}
+.first-cont {
+	text-align: center;
+	margin: 0;
+	padding-top: 10%;
+}
+.subheading {
+	font-size: 24px;
+}
+#godown {
+	position: absolute;
+	margin-top: 75px;
+	width: 75%;
+	left: 50%;
+	margin-left: -37.5%;
+}
+#godown a {
+	bottom: 20px;
+	z-index: 2;
+	display: inline-block;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	color: #fff;
+	font : normal 400 20px/1 'Josefin Sans', sans-serif;
+	letter-spacing: .1em;
+	text-decoration: none;
+	transition: opacity .3s;
+	margin-top: 60px;
+}
+#godown a:hover {
+	opacity: .5;
+}
+#godown a span {
+	position: absolute;
+	top: -60px;
+	left: 50%;
+	width: 46px;
+	height: 46px;
+	margin-left: -23px;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	box-sizing: border-box;
+}
+#godown a span::after {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	content: '';
+	width: 16px;
+	height: 16px;
+	margin: -12px 0 0 -8px;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	box-sizing: border-box;
+}
+.container {
+	width: 75%;
+    padding: 2.5%;
+    border-radius: 20px;
+	margin: auto;
+	color: #fff;
+}
+/* #posts {
+	padding-top: 120px;
+} */
+#posts:focus {
+	outline: none;
+}
+.post-preview {
+	padding: 20px 35px 20px 45px;
+	margin-bottom: 0;
+}
+.post-title {
+	font-weight: 600;
+}
+/* .post-title:hover {
+	color: rgb(56, 56, 56);
+} */
+.post-subtitle {
+	font-weight: 200;
+	font-size: 18px;
+}
+.post-meta {
+	text-align: right;
+	padding-right: 20px;
+	font-size: 18px;
+}
+.myhr {
+	border: none;
+	margin-left: 35px;
+	margin-right: 35px; 
+	background-color: transparent;
+	border-top: 2px dashed rgb(200, 200, 200);
+}
+.copyright {
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+}
+.cat_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+}
+.cat_li {
+    padding-left: 25px;
+    padding-right: 25px;
+    display: inline;
+    justify-content: space-evenly;
+}
+.cat_names{
+    background-color: rgba(20, 20, 20, 0.8);
+    margin-top: 25px;
+    padding:10px;
+    border-radius: 10px;
+    width: 75%;
+    margin-left:12.5%
+}
+.container{
+    background-color: rgba(20, 20, 20, 0.8);
+    border-radius: 15px;
+}
+.search_bar{
+    font-family: FontAwesome;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 25px;
+}
+#mydiv{
+    display: none;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(20, 20, 20, 0.8);
+    margin-left: 35%;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/*  Pagination  */
+
+.inline{   
+	display: inline-block;   
+	float: right;   
+	margin: 20px 0px;   
+}   
+ 
+input, button{   
+	height: 34px;   
+}   
+
+.pagination {
+display: inline-block;   
+}   
+.pagination a {   
+font-weight:bold;   
+font-size:18px;   
+color: white;   
+float: left;   
+padding: 8px 16px;   
+text-decoration: none;   
+border:1px solid black;   
+}   
+.pagination a.active {   
+	background-color: pink;   
+}   
+.pagination a:hover:not(.active) {   
+background-color: skyblue;   
+}   
+.welcome{
+padding-top: 35px;
+color: white;
+font-size: 20px;
+}
+.navlink{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #abb0b4;
+}
+.readmore{
+	background-color: rgb(55, 83, 211);
+	padding: 10px;
+	font-size: 20px;
+	margin: 5px;
+	font-weight: 500;
+	color: white;
+    border-radius: 10px;
+}
+.card-view{
+    border: 2px solid white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
