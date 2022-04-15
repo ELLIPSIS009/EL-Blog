@@ -115,7 +115,7 @@ About us
 * Store the cloned project in "`C:\xampp\htdocs`"
 * Go to "`localhost/phpmyadmin`" in the web browser
 * Create a new dataset with the name "`maindb`"
-* Insert [THIS](DATABASE_FILE/blog.sql) SQL File in this database
+* Insert [THIS](database/blog.sql) SQL File in this database
 * Open new Web Browser Page
 * In Address Bar of the browser write "`localhost/EL_Movie-Booking-Platform/index.php`"
 * You can view the Admin with "`localhost/EL_Movie-Booking-Platform/admin_home.php`"
