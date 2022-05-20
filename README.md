@@ -1,6 +1,6 @@
 # ***EL-Blog***
 
-EL Blog is a web app implemented using PHP, MySQL, JavaScript, HTML and CSS.
+EL Blog is a web app implemented using PHP, MySQL, JavaScript, HTML and CSS..
 <br><br>
 
 # Hosted
