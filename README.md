@@ -62,7 +62,7 @@ This is the homepage of our project. Here all the options of our webpage are vis
 **post.php**<br>
 This php file has been made to show the posts. The title, content, and the date on which the post was made available is displayed. Also, if the user is logged in, he can comment on the post, the name of the person who has commented is also visible.<br><br>
 **countvote.php**<br>
-On this homepage of our eblog, all the posts are visible in a short summary type format. There the users have also been given a feature to like or dislike the post. This php file keeps a count of all the likes and dislikes and displays it according to that post.<br><br>
+On this homepage of our eblog, all the posts are visible in a short summary type format. There the users have also been given a feature to like or dislike the post. This php file keeps a count of all the likes and dislikes and displays it according to that post.
 **categ.php**<br>
 Our eblog has a feature of filtering posts by category. When user clicks on a specific category of posts that he wants to see, he is redirected to categ.php and this php page displays all the posts of that category that the user has selected.<br><br>
 **search.php**<br>
